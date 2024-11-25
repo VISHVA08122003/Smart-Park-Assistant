@@ -1,0 +1,35 @@
+.a {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 300px;
+  text-align: left;
+  transition: all 0.3s ease; /* Add transition to all properties with a duration of 0.3 seconds and ease timing function */
+}
+
+.a:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a subtle box shadow on hover */
+  transform: scale(1.05); /* Add a slight scale effect on hover */
+}
+
+.a h1 {
+  margin: 0;
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+  transition: color 0.3s ease; /* Add transition to color property with a duration of 0.3 seconds and ease timing function */
+}
+
+.a h1:first-child {
+  margin-bottom: 10px;
+}
+
+.a h1:not(:first-child) {
+  margin-top: 10px;
+  font-size: 16px;
+  font-weight: normal;
+  color: #666;
+  transition: color 0.3s ease; /* Add transition to color property with a duration of 0.3 seconds and ease timing function */
+}

@@ -1,0 +1,67 @@
+/* CustomStyles.css */
+
+/* General styles */
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+/* Styles for FormExample */
+.navbar-custom {
+    background-color: #4a90e2;
+    color: rgb(129, 111, 111);
+}
+
+.nav-link {
+    color: hwb(0 50% 42%);
+}
+
+.navbar button {
+    animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+/* Styles for DarkVariantExample */
+.carousel-dark {
+    background-color: #333;
+    color: #966565;
+}
+
+.carousel-item img {
+    filter: brightness(50%);
+}
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+
+/* Styles for Footer */
+.footer-custom {
+    background-color: #f1f1f1;
+    color: black;
+}
+
+.footer-link:hover {
+    color: #4a90e2;
+    text-decoration: none;
+}
+
+.social-icon {
+    color: #4a90e2;
+    transition: transform 0.3s;
+}
+
+.social-icon:hover {
+    transform: scale(1.2);
+}

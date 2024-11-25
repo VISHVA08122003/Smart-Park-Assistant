@@ -1,0 +1,53 @@
+Carousel styling
+.carousel-item {
+    text-align: center; /* Centering images if needed */
+  }
+  
+  /*  */
+  
+  /* Card styling */
+  .card {
+    margin: auto; /* Center the card inside the carousel-caption */
+    background-color: #f8f9fa; /* Light background for the card */
+    border-radius: 15px; /* Rounded corners for the card */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  }
+  
+  .card-title {
+    color: #333; /* Dark color for the title */
+  }
+  
+  .card-text {
+    color: #555; /* Slightly lighter color for the text */
+  }
+  
+  /* Button styling */
+  .button {
+    background-color: #007bff; /* Bootstrap primary color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    text-transform: uppercase; /* Uppercase text for the button */
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  .button:hover {
+    background-color: hsl(211, 27%, 79%); /* Darker shade for hover effect */
+  }
+  
+  /* Popover styling */
+  /* .popover {s
+    max-width: 200px; /* Limiting the width of the popover */
+  
+   */
+  .popover-header {
+    background-color: #007bff; /* Bootstrap primary color */
+    color: rgb(238, 231, 231);
+  }
+  
+  .popover-body {
+    background-color: #f8f9fa;
+  }
+  
